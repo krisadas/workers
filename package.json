@@ -1,0 +1,22 @@
+{
+    "name": "workers",
+    "private": true,
+    "version": "0.1.0",
+    "description": "Test workers",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "format": "prettier --write '**/*.{js,css,json,md}'"
+    },
+    "author": "krisadas",
+    "license": "MIT",
+    "devDependencies": {
+        "prettier": "^1.17.0"
+    },
+    "dependencies": {
+        "itty-router": "^2.1.9",
+        "jsonwebtoken": "^8.5.1",
+        "jwks-rsa": "^2.0.4",
+        "serverless-cloudflare-workers": "^1.2.0"
+    }
+}

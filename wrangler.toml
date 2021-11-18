@@ -1,0 +1,4 @@
+type = "webpack"
+name = "black-math-6702"
+account_id = "YOUR_ACCOUNT_ID"
+workers_dev = true
